@@ -1,6 +1,13 @@
-pip install python-dotenv 
-requests 
-langchain 
-langchain-astradb 
-langchain-openai 
-langchainhub
+# Core Dependencies
+python-dotenv>=1.0.0  # Manage environment variables
+requests>=2.31.0  # Handle API requests
+
+# LangChain & Vector Storage
+langchain>=0.1.0  # Framework for AI applications
+langchain-astradb>=0.1.3  # AstraDB integration for vector storage
+langchain-openai>=0.0.7  # OpenAI embeddings and LLM support
+langchainhub>=0.1.0  # Pre-built LangChain components
+
+# Optional Dependencies (uncomment if needed)
+# openai>=1.0.0  # For direct OpenAI API calls
+# tiktoken>=0.5.0  # For token counting and optimization
