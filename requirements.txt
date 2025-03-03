@@ -1,0 +1,6 @@
+pip install python-dotenv 
+requests 
+langchain 
+langchain-astradb 
+langchain-openai 
+langchainhub
